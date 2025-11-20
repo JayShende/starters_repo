@@ -1,0 +1,26 @@
+{
+  "name": "@repo/prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev --skip-generate",
+    "db:deploy": "prisma migrate deploy"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*"
+  },
+  "exports": {
+    "./client": "./index.ts",
+    "./prisma": "./index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "6.19.0",
+    "dotenv": "^17.2.3",
+    "prisma": "^6.19.0"
+  }
+}

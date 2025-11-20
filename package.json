@@ -1,5 +1,5 @@
 {
-  "name": "inventra",
+  "name": "start_repo",
   "private": true,
   "scripts": {
     "build": "turbo run build",
